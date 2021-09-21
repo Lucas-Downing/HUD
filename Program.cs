@@ -40,8 +40,6 @@ namespace HUD
             Console.WriteLine("SHD:" + Shield); //Base Shield
             Console.WriteLine();
             Console.WriteLine("Remaining lives: " + Lives); //Base Lives
-            Console.WriteLine();
-            Console.WriteLine("--Score--");
             Console.WriteLine("Combo multiplier: " + Combo);
             Console.WriteLine("Score: " + Score);
             Console.WriteLine();
@@ -51,6 +49,8 @@ namespace HUD
 
 
             Console.WriteLine("Player loaded in");
+            Console.WriteLine();
+            Console.WriteLine();
 
             Console.ReadKey(true);
 
@@ -64,21 +64,24 @@ namespace HUD
             Console.WriteLine("SHD:" + Shield); //Base Shield
             Console.WriteLine();
             Console.WriteLine("Remaining lives: " + Lives); //Base Lives
-            Console.WriteLine();
-            Console.WriteLine("--Score--");
             Console.WriteLine("Combo multiplier: " + Combo);
             Console.WriteLine("Score: " + Score);
             Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine("---Event Log---");
+            Console.WriteLine();
 
             Health = Health - 5;
             Console.WriteLine("Player was hit for 5HP");
-            Console.WriteLine("HP " + Health);
             Combo = Combo + 0.5f;
             Console.WriteLine("Reached hit streak of 10");
             Console.WriteLine("Score multiplier is now " + Combo);
-
-
+            Console.WriteLine();
+            Console.WriteLine("-------------");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
             Console.ReadKey(true);
 
             Console.WriteLine("----------------");
@@ -90,18 +93,19 @@ namespace HUD
             Console.WriteLine("HP:" + Health); //Base Health
             Console.WriteLine("SHD:" + Shield); //Base Shield
             Console.WriteLine();
-            Console.WriteLine("Remaining lives: " + Lives); //Base Lives
-            Console.WriteLine();
-            Console.WriteLine("--Score--");
+            Console.WriteLine("Remaining lives: " + Lives); //Base Live
             Console.WriteLine("Combo multiplier: " + Combo);
             Console.WriteLine("Score: " + Score);
             Console.WriteLine();
             Console.WriteLine("---Event Log---");
-
+            Console.WriteLine();
             Console.WriteLine("Player Died");
             Console.WriteLine("Reson: Jumping into magma");
+            Console.WriteLine("----------------");
             Lives = Lives - 1;
-            Console.WriteLine("Remaining lives: " + Lives);
+            Console.WriteLine();
+            Console.WriteLine();
+
 
 
             Console.ReadKey(true);
@@ -116,17 +120,19 @@ namespace HUD
             Console.WriteLine("SHD:" + Shield); //Base Shield
             Console.WriteLine();
             Console.WriteLine("Remaining lives: " + Lives); //Base Lives
-            Console.WriteLine();
-            Console.WriteLine("--Score--");
             Console.WriteLine("Combo multiplier: " + Combo);
             Console.WriteLine("Score: " + Score);
             Console.WriteLine();
             Console.WriteLine("---Event Log---");
 
+            Console.WriteLine("----------------");
             Console.WriteLine("Player danced for the amusment of the gods!"); //Score from the gods!
             Score = Score + 1000;
             Score = Score * Combo;
-            Console.WriteLine("new score: " + Score);
+            Console.WriteLine("----------------");
+            Console.WriteLine();
+            Console.WriteLine();
+
 
             Console.ReadKey(true);
 
@@ -140,8 +146,6 @@ namespace HUD
             Console.WriteLine("SHD:" + Shield); //Base Shield
             Console.WriteLine();
             Console.WriteLine("Remaining lives: " + Lives); //Base Lives
-            Console.WriteLine();
-            Console.WriteLine("--Score--");
             Console.WriteLine("Combo multiplier: " + Combo);
             Console.WriteLine("Score: " + Score);
             Console.WriteLine();
@@ -150,6 +154,8 @@ namespace HUD
             Shield = Shield - 50;
             Health = Health - 1000;
             Console.WriteLine("Player was hit for 1000HP");
+            Console.WriteLine();
+            Console.WriteLine();
 
             Console.ReadKey(true);
 
@@ -163,8 +169,6 @@ namespace HUD
             Console.WriteLine("SHD:" + Shield); //Base Shield
             Console.WriteLine();
             Console.WriteLine("Remaining lives: " + Lives); //Base Lives
-            Console.WriteLine();
-            Console.WriteLine("--Score--");
             Console.WriteLine("Combo multiplier: " + Combo);
             Console.WriteLine("Score: " + Score);
             Console.WriteLine();
@@ -172,8 +176,8 @@ namespace HUD
 
             Lives = Lives - 1;
             Console.WriteLine("Player XDDD89 killed you");
-            Console.WriteLine("HaHa, No0b");
-            Console.WriteLine();
+            Console.WriteLine("(XDDD89) HaHa, No0b");
+            Console.WriteLine("-----------");
 
             Console.WriteLine("Press any key to rage quit...");
 
