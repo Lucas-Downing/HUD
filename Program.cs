@@ -147,7 +147,9 @@ namespace HUD
             Console.WriteLine();
             Console.WriteLine("---Event Log---");
 
-
+            Shield = Shield - 50;
+            Health = Health - 1000;
+            Console.WriteLine("Player was hit for 1000HP");
 
             Console.ReadKey(true);
 
